@@ -20,8 +20,9 @@ body {
     justify-content: space-between;
     align-items: center;
     min-height: 88px;
-    background: #FFFFFF33;
-    border-bottom: 2px solid grey;
+    background: white;
+    border-bottom: 2px solid #EAEAEA;
+    box-shadow: 0 3px 6px #cfcfcf;
     position: fixed;
     top: 0;
     width: 100%;
@@ -54,7 +55,7 @@ body {
 }
 
 .top-section__nav-item:hover {
-    background-color: #D1D1D1;
+    background-color: #08A6E5;
 }
 
 .top-section__nav-item a, .footer-section__nav-item a {
@@ -114,14 +115,42 @@ body {
 }
 /* e: buttons */
 
-/* blog */
-/* e: blog */
+/* banner */
+/* e: banner */
 
-/* service */
-/* e: service */
+/* section */
+/* e: section */
+
+/* table */
+/* e: table */
 
 /* contact */
 /* e: contact */
 
 /* footer */
+.footer {
+    background-color: var(--gray-color-200);
+    min-height: 230px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer__section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.footer__section-column {
+    display: flex;
+    gap: 140px;
+}
+
+.footer-section__nav-item {
+    margin-bottom: 5px;
+}
+
+.footer-section__nav-item a:hover {
+    color: var(--secondary-color);
+}
 /* e: footer */
